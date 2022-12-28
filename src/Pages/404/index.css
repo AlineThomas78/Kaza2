@@ -1,0 +1,25 @@
+.ContainerError{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+  
+}
+
+.ImgError{
+   margin: 20px;
+   padding: 20px;
+}
+
+.P_Error{
+    color:#FF6060;
+    font-weight: 500;
+    font-size: 35px;
+    margin-bottom: 100px;
+}
+
+.LinkError{
+    font-size: 15px;
+    margin-bottom: 60px; 
+}

@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.NavContainer {
+  width: auto;
+  height: 64px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  margin-left: 128px;
+  margin-right: 60px;
+  margin-bottom: 10px;
+}
+
+.Logo {
+  height: 50px;
+  
+}
+
+.LinkContainer {
+  display: flex;
+  justify-content:flex-end;
+  margin-right: 60px;
+  margin-bottom: 25px;
+}
+
+.Link {
+  padding: 10px 15px;
+  color: #ff6060;
+  font-size: 24px;
+  display: flex;
+  align-items: flex-end;
+  text-align: right;
+  /* cursor: pointer; */
+  text-decoration-line: underline;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+}
+
