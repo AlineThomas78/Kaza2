@@ -8,16 +8,21 @@ import Home from "./Pages/Home";
 import Error from "./Pages/404";
 import Footer from "./Components/Footer";
 import Propos from "./Pages/Propos";
+import "./index.css";
+import LocationDetails from "./Pages/LocationDetails";
 
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
-      <Header />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path='*' element={<Error />} />  
-        <Route path='/propos' element={<Propos />} />  
-      </Routes>
+      <div className="Container">
+        <Header />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="*" element={<Error />} />
+          <Route path="/propos" element={<Propos />} />
+          <Route path="/logement/:id" element={<LocationDetails />} />
+        </Routes>
+      </div>
       <Footer />
     </BrowserRouter>
   </React.StrictMode>,

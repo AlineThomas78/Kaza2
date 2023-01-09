@@ -4,27 +4,41 @@
   align-items: center;
   margin-top: 30px;
   margin-bottom: 20px;
-  
+  width: 100%;
+  height: auto;
+}
+
+.banner {
+  width: 100%;
+  height: 380px;
+  border-radius: 30px;
+  filter: brightness(80%);
 }
 
 .section {
+  width: 100%;
+  height: 400px;
+  position: relative;
   display: flex;
   justify-content: center;
-  width: 100%;
-  height: 300px;
-  position: relative;
-  
+  align-items: center;
 }
 
-.sectionImg {
-  filter: brightness(70%);
-  border-radius: 30px;
+.text {
+  text-align: center;
+  position: absolute;
 }
 
-h1{
-    position: absolute;
-    margin-top: 110px;
-    font-size: 50px;
-    color: white;
-    opacity: 80%;
+.title {
+  color: white;
+  font-size: 48px;
+}
+
+
+@media(min-width:320px){
+  .title{
+
+      color: white;
+      font-size: 15px;
+  }
 }

@@ -1,4 +1,4 @@
-const Json =
+ export const appartements =
 [
 	{
 		"id": "c67ab8a7",
@@ -618,4 +618,3 @@ const Json =
 		]
 	}
 ]
-export default Json;

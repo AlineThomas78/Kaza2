@@ -3,12 +3,15 @@ import "./index.css";
 
 function Footer() {
   return (
-    <div className="FooterContainer">
-      <img className="imgFooter" src={footer} alt="footer" />
+    
+      <div className="footer">
+        <img className="imgFooter" src={footer} alt="footer" />
       <div className="copyright">
         <p> &copy; 2020 Kaza. All right reserved</p>
       </div>
-    </div>
+      </div>
+      
+    
   );
 }
 

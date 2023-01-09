@@ -1,0 +1,32 @@
+.Accordion {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 20px;
+  
+}
+
+.AccordionApropos{
+  margin: 0px !important;
+}
+
+.Taccordion {
+  width: 100%;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+/* .children {
+  width: 100%;
+  height: auto;
+  background-color: #f7f7f7;
+  display: flex;
+  padding: 10px;
+  border-radius: 10px;
+  
+} */

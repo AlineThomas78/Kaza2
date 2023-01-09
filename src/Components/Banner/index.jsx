@@ -1,13 +1,15 @@
 import "./index.css";
-import banniere from "../../Assets/banniere.svg";
 
-function Banner() {
+
+function Banner({image, text}) {
   return (
     <div className="containerSection">
-      <section className="section ">
-        <img className="sectionImg" src={banniere} alt="img" />
-        <h1>Chez vous, partout et ailleurs</h1>
-      </section>
+      <div className="section ">
+        <img  className="banner" src={image} alt="img" />
+          {text &&<div className="text">
+            <h1 className="title">{text}</h1>
+          </div>}
+      </div>
     </div>
   );
 }

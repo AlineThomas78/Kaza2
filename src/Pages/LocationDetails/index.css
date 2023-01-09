@@ -1,0 +1,545 @@
+.ContainerAnnonce {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.carrousel {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* margin-bottom: 20px; */
+}
+
+.carrousel img {
+  width: 100%;
+  height: 600px;
+  border-radius: 25px;
+  object-fit: cover;
+}
+
+img.fleche {
+  height: 80px;
+  width: auto;
+}
+
+.ContainerCollapse {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rectangle {
+  display: flex;
+  width: 100%;
+  height: 52px;
+  background-color: #ff6060;
+  border-radius: 10px;
+}
+
+.fleches {
+  width: 100%;
+  display: flex;
+  position: absolute;
+  justify-content: space-between;
+}
+img.next {
+  width: 40px;
+  height: 100px;
+  display: flex;
+  margin-left: 1600px;
+}
+
+img.previous {
+  width: 40px;
+  height: 100px;
+  display: flex;
+  margin-left: 70px;
+}
+
+/* // sous le carrousel // */
+
+.ContainerSection {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.SectionCollapse {
+  width: 80%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section1 {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.section2 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: right;
+}
+
+.sectionT {
+  color: #ff6060;
+  font-size: 36px;
+  font-weight: 500;
+  margin: 10px 10px 0px 0px;
+  width: 100%;
+}
+
+.location {
+  font-size: 18px;
+  color: #ff6060;
+  margin-top: 10px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.tags {
+  color: #ff6060;
+  display: flex;
+  margin: 10px 10px 0px 0px;
+  width: 100%;
+}
+.host {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+}
+
+.hostName {
+  color: #ff6060;
+  font-size: 20px;
+  font-weight: 500;
+  width: min-content;
+  margin-right: 15px;
+}
+
+.hostPicture {
+  border-radius: 50%;
+}
+
+ul {
+  list-style: none;
+}
+
+.tag {
+  background-color: #ff6060;
+  width: auto;
+  color: white;
+  border-radius: 10px;
+  margin: 0px 5px 0px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  padding: 5px;
+}
+
+@media (min-width: 320px) {
+  .carrousel {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .carrousel img {
+    width: 100%;
+    height: 300px;
+    border-radius: 25px;
+    object-fit: cover;
+  }
+
+  .tags {
+    color: #ff6060;
+    display: flex;
+    margin-top: 10px;
+    width: 100%;
+  }
+
+  .section1 {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+
+  .host {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .rating {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+
+  img.fleche {
+    height: 40px;
+    width: auto;
+  }
+
+  .fleches {
+    width: 60%;
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+  }
+
+  .ContainerCollapse {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+
+  .Taccordion {
+    width: 75%;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 500;
+  }
+
+  .rectangle {
+    display: flex;
+    width: 90%;
+    height: 35px;
+    background-color: #ff6060;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .imgAccordions {
+    width: 15%;
+  }
+}
+
+.SectionCollapse {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.ContainerSection {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media (min-width: 375px) {
+  .SectionCollapse {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+  }
+
+  .ContainerSection {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .host {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .fleches {
+    width: 70%;
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+  }
+}
+
+@media (min-width: 768px) {
+  .carrousel {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .ContainerSection {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .SectionCollapse {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 100%;
+  }
+
+  .Accordion {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    font-size: 20px;
+  }
+
+  .fleches {
+    width: 80%;
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+  }
+
+  .imgAccordions {
+    height: 20px;
+    width: 30px;
+  }
+
+  .rectangle {
+    display: flex;
+    width: 90%;
+    height: 35px;
+    background-color: #ff6060;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-around;
+  }
+}
+
+@media (min-width: 1024px) {
+  .host {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .rating {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+  }
+
+  .children {
+    width: 90%;
+    height: auto;
+    background-color: #f7f7f7;
+    display: flex;
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+  .ContainerCollapse {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-top: 15px;
+  }
+}
+
+@media (min-width: 1440px) {
+
+  .lenght {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: flex-end;
+    height: 450px;
+    font-size: 20px;
+    color: white;
+}
+  
+
+  .CollapseDetails {
+    width: 45%;
+  }
+
+  .CollapseContainer {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .Container {
+    min-height: 100%;
+    position: relative;
+    padding: 0px 60px;
+  }
+
+  .carrousel {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+
+  .carrousel img {
+    width: 100%;
+    height: 500px;
+    border-radius: 25px;
+    object-fit: cover;
+  }
+
+  .fleches {
+    width: 90%;
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+  }
+
+  img.fleche {
+    height: 60px;
+  }
+
+  .sectionT {
+    color: #ff6060;
+    font-size: 28px;
+    font-weight: 500;
+    margin: 10px 10px 0px 0px;
+    width: 100%;
+  }
+
+  .location {
+    font-size: 20px;
+    color: #ff6060;
+    margin-top: 5px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+
+  .hostName {
+    color: #ff6060;
+    font-size: 25px;
+    font-weight: 500;
+    width: min-content;
+    margin-right: 15px;
+  }
+
+  .hostPicture {
+    height: 130px;
+    border-radius: 50%;
+  }
+
+  .tag {
+    background-color: #ff6060;
+    width: auto;
+    color: white;
+    border-radius: 10px;
+    margin: 0px 10px 0px 0px;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    padding: 5px;
+  }
+  .p {
+    font-size: 20px;
+  }
+
+  .children {
+    width: 100%;
+    height: auto;
+    background-color: #f7f7f7;
+    display: flex;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+  }
+
+  .ContainerSection {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-bottom: 30px;
+  }
+
+  .Taccordion {
+    width: 75%;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  .rectangle {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    background-color: #ff6060;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .section1 {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+
+  .section2 {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: right;
+    justify-content: space-evenly;
+  }
+}

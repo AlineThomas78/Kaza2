@@ -7,12 +7,12 @@ function Header() {
     <div className="NavContainer">
       <div className="Logo">
         <Link to="/">
-          <img className="Logo" alt="" src={LOGO} />
+          <img className="ImgLogo" alt="" src={LOGO} />
         </Link>
       </div>
 
       <div className="LinkContainer">
-        <Link className="Link" to="/">
+        <Link className="Link" actif to="/">
           Accueil
         </Link>
 

@@ -1,0 +1,152 @@
+.ContainerCard {
+  width: 400px;
+  height: 350px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(0, 0, 0, 0.5) 100%
+  );
+  background-color: #ff6060;
+  border-radius: 10px;
+  position: relative;
+  font-weight: 500;
+  display: flex;
+  align-items: flex-end;
+}
+
+.pictures {
+  width: 400px;
+  height: 350px;
+  border-radius: 10px;
+}
+
+.CardTitle {
+  color: #ffff;
+  font-style: normal;
+  font-size: 18px;
+  margin-bottom: 50px;
+  margin-left: 15px;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.ContainerCatalogue {
+  background-color: #f7f7f7;
+  border-radius: 25px;
+}
+
+.catalogue {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+@media (min-width: 320px) {
+  .ContainerCard {
+    width: 100%;
+    height: 300px;
+    background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(0, 0, 0, 0.5) 100%
+    );
+    background-color: #ff6060;
+    border-radius: 10px;
+    position: relative;
+    font-weight: 500;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
+
+  .pictures {
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+  }
+
+  .catalogue {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  .ContainerCard {
+    width: 100%;
+    height: 400px;
+    background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(0, 0, 0, 0.5) 100%
+    );
+    background-color: #ff6060;
+    border-radius: 10px;
+    position: relative;
+    font-weight: 500;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 50px;
+    margin-top: 70px;
+  }
+
+  .pictures {
+    width: 100%;
+    height: 400px;
+    border-radius: 10px;
+  }
+
+  .title {
+    color: white;
+    font-size: 25px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .ContainerCard {
+    width: 340px;
+    height: 340px;
+    background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(0, 0, 0, 0.5) 100%
+    );
+    background-color: #ff6060;
+    border-radius: 10px;
+    position: relative;
+    font-weight: 500;
+    display: flex;
+    align-items: flex-end;
+    margin: 50px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .ContainerCard {
+    width: 340px;
+    height: auto;
+    background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(0, 0, 0, 0.5) 100%
+    );
+    background-color: #ff6060;
+    border-radius: 10px;
+    position: relative;
+    font-weight: 500;
+    display: flex;
+    align-items: flex-end;
+    margin: 50px;
+  }
+
+  .title {
+    color: white;
+    font-size: 48px;
+  }
+}
