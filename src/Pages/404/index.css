@@ -4,12 +4,20 @@
     align-items: center;
     flex-direction: column;
     width: 100%;
-  
+}
+
+.Section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .ImgError{
    margin: 20px;
    padding: 20px;
+   height: 263px;
+   width: 597px;
 }
 
 .P_Error{
@@ -20,6 +28,10 @@
 }
 
 .LinkError{
-    font-size: 15px;
-    margin-bottom: 60px; 
+    font-size: 18px;
+    margin-bottom: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

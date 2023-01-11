@@ -9,16 +9,9 @@
   height: 64px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin-top: 40px;
   margin-bottom: 10px;
- 
-  
-}
-
-.Logo {
-  height: 100px;
-  margin-left: 5px;
- 
 }
 
 .LinkContainer {
@@ -33,74 +26,112 @@
   display: flex;
   align-items: flex-end;
   text-align: right;
-  /* cursor: pointer; */
+  cursor: pointer;
   text-decoration-line: underline;
   font-style: normal;
   font-weight: 500;
 }
 
+@media (max-width: 320px) {
+  .Link {
+    padding: 0px 5px;
+    font-size: 9px;
+    text-transform: uppercase;
+  }
 
-@media (max-width:321px){
-  .Link{
+  .LinkContainer {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .Logo {
+    height: 47px;
+    width: 100%;
+  }
+
+  .ImgLogo {
+    width: 75%;
+    height: 47px;
+  }
+}
+
+@media (min-width: 375px) {
+  .Link {
     padding: 0px 5px;
     font-size: 12px;
   }
 
-  .LinkContainer{
+  .LinkContainer {
     display: flex;
     align-items: center;
   }
 
-  .Logo{
+  .Logo {
     height: auto;
     max-width: 43%;
   }
 
-  .ImgLogo{
+  .ImgLogo {
     width: 95px;
   }
 }
 
-@media (max-width:375px){
-  .Link{
+@media (min-width: 425px) {
+  .Link {
     padding: 0px 5px;
     font-size: 12px;
   }
 
-  .LinkContainer{
+  .LinkContainer {
+    width: 100%;
+    display: flex;
+   justify-content: flex-end;
+    align-items: center;
+  }
+
+  .Logo {
+    height: auto;
+    width: 100%;
     display: flex;
     align-items: center;
   }
 
-  .Logo{
-    height: auto;
-    max-width: 43%;
-  }
-
-  .ImgLogo{
+  .ImgLogo {
     width: 95px;
   }
 }
 
-@media (max-width:425px){
-  .Link{
+@media (min-width: 767px) {
+  .ImgLogo {
+    width: 174px;
+    height: 64px;
+  }
+
+  .Link {
     padding: 0px 5px;
-    font-size: 12px;
+    font-size: 24px;
+    font-weight: 500;
+  }
+}
+
+@media (min-width: 1024px) {
+  .ImgLogo {
+    width: 174px;
+    height: 64px;
   }
 
-  .LinkContainer{
+  .Link {
+    padding: 0px 20px;
+    font-size: 24px;
+    font-weight: 500;
+  }
+
+  .LinkContainer {
+    width: 100%;
     display: flex;
+   justify-content: flex-end;
     align-items: center;
-  }
-
-  .Logo{
-    height: auto;
-    max-width: 43%;
-    display: flex;
-    align-items: center;
-  }
-
-  .ImgLogo{
-    width: 95px;
   }
 }

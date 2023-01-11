@@ -16,7 +16,6 @@ function Error() {
           Retourner sur la page d'accueil
         </Link>
       </div>
-      <h1>hello</h1>
     </div>
   );
 }
