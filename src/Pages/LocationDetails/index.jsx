@@ -5,11 +5,13 @@ import "./index.css";
 import Tags from "../../Components/Tags";
 import Carrousel from "../../Components/Carrousel";
 import Rating from "../../Components/Rating";
+import NotFound from "../../Pages/NotFound";
 
 function LocationDetails() {
   const { id } = useParams();
   const location = appartements.find((appartement) => appartement.id === id);
-  return (
+  return location?(
+   
     <div className="ContainerAnnonce">
       <Carrousel pictures={location.pictures} />
       <div className="ContainerSection">
@@ -56,6 +58,6 @@ function LocationDetails() {
         </div>
       </div>
     </div>
-  );
+  ): <NotFound/>
 }
 export default LocationDetails;

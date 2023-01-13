@@ -5,7 +5,7 @@ import { Routes, Route } from "react-router";
 import "./Styles/index.css";
 import Header from "./Components/Header";
 import Home from "./Pages/Home";
-import Error from "./Pages/404";
+import Error from "./Pages/NotFound";
 import Footer from "./Components/Footer";
 import Propos from "./Pages/Propos";
 import "./index.css";

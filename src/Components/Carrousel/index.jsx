@@ -26,26 +26,28 @@ function Carrousel({ pictures }) {
     <div className="carrousel">
       <img src={pictures[index]} alt="carrousel" />
       <div className="lenght">
-        {
-          pictures.length > 1 &&
+        {pictures.length > 1 && (
           <span>
             {index + 1} / {pictures.length}
           </span>
-        }
+        )}
       </div>
       <div className="fleches">
-        <div>
-          <img
-            onClick={goPrevious}
-            className="fleche"
-            src={previous}
-            alt="previous"
-          />
-        </div>
-
-        <div>
-          <img onClick={goNext} className="fleche" src={next} alt="next" />
-        </div>
+        {pictures.length > 1 && (
+          <>
+            <div>
+              <img
+                onClick={goPrevious}
+                className="fleche"
+                src={previous}
+                alt="previous"
+              />
+            </div>
+            <div>
+              <img onClick={goNext} className="fleche" src={next} alt="next" />
+            </div>
+          </>
+        )}
       </div>
     </div>
   );
