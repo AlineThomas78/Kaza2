@@ -35,3 +35,11 @@
     justify-content: center;
     align-items: center;
 }
+
+.Link_Error{
+    color:#FF6060;
+    font-weight: 500;
+    font-size: 20px;
+    cursor: pointer;
+}
+

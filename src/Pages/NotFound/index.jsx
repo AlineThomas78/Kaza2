@@ -12,7 +12,7 @@ function Error() {
         </p>
       </div>
       <div className="LinkError">
-        <Link className="Link" to="/">
+        <Link className="Link_Error" to="/">
           Retourner sur la page d'accueil
         </Link>
       </div>

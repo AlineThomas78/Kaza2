@@ -44,7 +44,11 @@ function Carrousel({ pictures }) {
               />
             </div>
             <div>
-              <img onClick={goNext} className="fleche" src={next} alt="next" />
+              <img 
+                onClick={goNext} 
+                className="fleche" 
+                src={next} 
+                alt="next" />
             </div>
           </>
         )}
